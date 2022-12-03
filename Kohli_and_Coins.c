@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int n,a,b;
+    int n,a;
     scanf("%d",&n);
     if (n%5==0 && n%10==0) {
         printf("%d",n/10);
